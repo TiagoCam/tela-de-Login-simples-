@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+
+    
+    <body>
+
+        <div class="home">
+            <div class="img-wrapper">
+                <img src="img/fundo.jpg" alt="">
+            </div>
+            <form>
+                <h3>Entrar em contato</h3>
+                <input id="email" type="text" name="email" placeholder="Seu e-mail"/>
+                <input id="password" type="password" name="senha" placeholder="Sua senha"/>
+                <input type="submit" name="acao" value="Enviar"/>             
+            </for>
+        </div>  
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+        <script>
+            var email = document.getElementById('email');
+            var password = document.getElementById('password');
+
+            email.addEventListener('focus',()=>{
+                email.style.borderColor = "rgb(133, 7, 192)";
+            });
+            email.addEventListener('blur',()=>{
+                email.style.borderColor = "#ccc";
+            });
+
+            password.addEventListener('focus',()=>{
+                password.style.borderColor = "rgb(133, 7, 192)";
+            });
+            password.addEventListener('blur',()=>{
+                password.style.borderColor = "#ccc";
+            });
+        </script>
+        
+    </body>
+</html>
